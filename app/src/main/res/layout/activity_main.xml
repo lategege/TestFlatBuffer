@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xhl.testandroidflatbuffer.MainActivity">
+
+    <TextView
+        android:id="@+id/json"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:onClick="getJson"
+        android:text="获取json数据"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="getFlatBuffer"
+        android:text="获取flatBuffer数据"
+        android:textSize="20sp" />
+</LinearLayout>
